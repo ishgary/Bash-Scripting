@@ -8,3 +8,5 @@ args=("$@") #mandatory part
 echo " ${args[0]}  ${args[2]}" # for specific output 
 
 echo $@ # for all the passed args
+
+echo $# # this will count the number of arguments passed
